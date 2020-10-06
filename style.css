@@ -1,0 +1,89 @@
+    body {
+        background-image: url("lady.jpg");
+        background-position: center;
+        background-size: cover;
+        background-attachment: fixed;
+        /*border: 3px solid honeydew;*/
+        margin: 0;
+    }
+    
+    .juu {
+        /* display: flex;*/
+        text-align: right;
+        justify-content: space-around;
+        color: white;
+    }
+    
+    h1 {
+        font-family: sans-serif;
+        color: white;
+        font-size: 60px;
+        font-weight: 100px;
+        margin-left: 100px;
+    }
+    
+    nav a {
+        color: white;
+        padding: 40px;
+    }
+    
+    .central {
+        display: flex;
+        flex-direction: row;
+    }
+    
+    .all {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+    }
+    
+    div li {
+        list-style: none;
+        display: inline;
+        padding: 20px;
+    }
+    
+    #moja {
+        background-color: white;
+        width: 670px;
+        height: 450px;
+    }
+    
+    #mbili {
+        margin-top: -30px;
+    }
+    
+    #tatu {
+        background-color: black;
+        color: white;
+        width: 460px;
+        height: 430px;
+    }
+    
+    #brex,
+    #davo,
+    #hustip {
+        font-size: 35px;
+        color: black;
+        margin: 25px;
+    }
+    
+    .sup {
+        color: darkgray;
+        font-size: 10px;
+    }
+    
+    .creator {
+        color: darkgray;
+        font-size: 10px;
+    }
+    
+    .husto {
+        color: darkgray;
+        font-size: 10px;
+    }
+    
+    ul {
+        align-items: flex-start;
+    }
